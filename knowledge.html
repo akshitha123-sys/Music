@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Music Quiz</title>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .quiz-container {
+            display: flex;
+            height: 100vh;
+        }
+    
+        .column {
+            width: 40%;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    
+        .column button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+    
+        .column button:hover {
+            background-color: #ddd;
+        }
+    
+        .column:nth-child(2) {
+            width: 60%;
+        }
+    
+        #question-container {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+    <header>
+        <h1>Welcome to GrooveFinder</h1>
+        <p >"Where You and Your Melody Unite - HarmonyPersona!"</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="personality.html">Know Your Personality</a></li>
+            <li><a href="ourbooks.html">Our Books</a></li>
+            <li><a href="letslearn.html">Let's Learn</a></li>
+            <li><a href="knowledge.html">Check Your Knowledge</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>    
+    <body>
+        <div class="quiz-container">
+            <div class="column">
+                <button onclick="loadQuestion('tabla')">Tabla</button>
+                <button onclick="loadQuestion('violin')">Violin</button>
+                <button onclick="loadQuestion('drums')">Drums</button>
+            </div>
+            <div class="column">
+                <div id="question-container">
+                  
+                </div>
+            </div>
+        </div>
+    
+        <script src="knowledge.js"></script>
+    </body>    
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <tabla>
+        <question>Which drum is known as the "treble drum" in tabla playing?</question>
+        <answer>dayan</answer>
+    </tabla>
+    <violin>
+        <question>What is a violinist's favorite style to explore for advanced playing?</question>
+        <answer>genre specialization</answer>
+    </violin>
+    <drums>
+        <question>What is the drumming term for playing very softly, almost inaudibly?</question>
+        <answer>ghost notes</answer>        
+    </drums>
+</questions>

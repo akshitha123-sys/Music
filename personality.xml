@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question>
+        <text>What type of sound appeals to you the most?</text>
+        <options>
+            <option>Smooth and melodic</option>
+            <option>Energetic and rhythmic</option>
+            <option>Expressive and versatile</option>
+        </options>
+    </question>
+    <question>
+        <text>How do you express yourself?</text>
+        <options>
+            <option>Through precision and coordination</option>
+            <option>Through emotion and feeling</option>
+            <option>Through creativity and innovation</option>
+        </options>
+    </question>
+    <question>
+        <text>Which musical environment do you enjoy the most?</text>
+        <options>
+            <option>Solo performances</option>
+            <option>Group collaborations</option>
+            <option>Orchestral arrangements</option>
+        </options>
+    </question>
+</questions>

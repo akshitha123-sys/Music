@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<covers>
+    <baseurl>https://example.com/path/to/images/</baseurl>
+    <cover>
+        <image>tabla1.jpg</image>
+        <title>Theory and Practice of Tabla</title>
+    </cover>
+    <cover>
+        <image>tabla2.jpg</image>
+        <title>Tabla (Rare Compositions of The Great Masters)</title>
+    </cover>
+    <cover>
+        <image>violin1.jpg</image>
+        <title>Essential Elements for Strings</title>
+    </cover>
+    <cover>
+        <image>violin2.jpg</image>
+        <title>Sound Innovations for String Orchestra</title>
+    </cover>
+    <cover>
+        <image>drum1.jpg</image>
+        <title>Let The drum Speak!: The Life Story Of The World's Most Recorded Drummer</title>
+    </cover>
+    <cover>
+        <image>drum2.jpg</image>
+        <title>The Complete Idiot's Guide to Playing drum</title>
+    </cover>
+</covers>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="home.css">
+        <title>HarmonyPersona - "Where You and Your Melody Unite - HarmonyPersona!"</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="ourbooks.js"></script>
+        <style>
+          #covers li, #title li { display: inline-block; 
+                                  padding: 4px; 
+                                  width: 120px; 
+                                  list-style-type: none;}
+          img { border: 1px solid black; 
+                padding: 5px; 
+                width: 100px;
+                height: 150px; }
+        </style>
+    </head>
+    <body>
+      <header>
+        <h1>Welcome to GrooveFinder</h1>
+        <p>"Where You and Your Melody Unite - HarmonyPersona!"</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="personality.html">Know Your Personality</a></li>
+            <li><a href="ourbooks.html">Our Books</a></li>
+            <li><a href="letslearn.html">Let's Learn</a></li>
+            <li><a href="knowledge.html">Check Your Knowledge</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <p>
+      <input type="radio" name="books" value="all" id="all"/> All Books
+      <input type="radio" name="books" value="tabla" id="tabla"/> Tabla
+      <input type="radio" name="books" value="violin" id="violin" /> Violin     
+      <input type="radio" name="books" value="drum" id="drum"/> drum
+      <input type="radio" checked name="books" value="none" id="none" /> None
+    </p>
+    <div id="booksdetails">
+    <div id="covers"></div>
+    <div id="title"></div>
+    </div>
+
+    </body>
+</html>
